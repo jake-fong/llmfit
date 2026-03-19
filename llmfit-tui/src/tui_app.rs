@@ -1391,8 +1391,7 @@ impl App {
             self.pull_status = Some(if any_runtime {
                 Self::format_no_download_message(model_format, is_mlx_model)
             } else {
-                "No runtime available — install Ollama, llama.cpp, Docker, or LM Studio"
-                    .to_string()
+                "No runtime available — install Ollama, llama.cpp, Docker, or LM Studio".to_string()
             });
         }
     }
